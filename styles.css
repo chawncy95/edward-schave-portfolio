@@ -228,3 +228,14 @@ body.dark-mode {
 .dark-mode a {
   color: #58a6ff;              /* readable link color */
 }
+
+/* Universal readability fix for ALL Peer Responses */
+.dark-mode #peer-feedback,
+.dark-mode #peer-feedback * {
+  color: #f0f6fc !important;      /* bright readable text */
+}
+
+.dark-mode #peer-feedback .card {
+  background-color: #161b22 !important;  /* GitHub dark card */
+  border: 1px solid #30363d;             /* subtle border */
+}
