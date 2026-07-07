@@ -244,3 +244,16 @@ body.dark-mode {
 .dark-mode #peer-feedback blockquote {
   color: #f0f6fc !important;
 }
+
+/* SIMPLE FIX — Make Peer Feedback text black in dark mode */
+body.dark-mode #peer-feedback .card,
+body.dark-mode #peer-feedback p,
+body.dark-mode #peer-feedback h3,
+body.dark-mode #peer-feedback blockquote,
+body.dark-mode #peer-feedback .commentary {
+  color: #000 !important;     /* black text */
+}
+
+body.dark-mode #peer-feedback blockquote {
+  border-left-color: #1f4f7f !important; /* keep your accent color */
+}
