@@ -198,3 +198,33 @@ body.dark-mode {
 .dark-mode .section h2 i {
   color: #fff;
 }
+
+/* Improved Dark Mode */
+body.dark-mode {
+  background-color: #0d1117;   /* deep black-blue */
+  color: #f0f6fc;              /* bright readable text */
+}
+
+.dark-mode .card {
+  background-color: #161b22;   /* GitHub-style dark card */
+  color: #f0f6fc;
+  border: 1px solid #30363d;   /* subtle border for definition */
+}
+
+.dark-mode h2 {
+  color: #f0f6fc;
+}
+
+.dark-mode .section h2 i {
+  color: #58a6ff;              /* soft blue icon highlight */
+}
+
+.dark-mode .btn-secondary {
+  background-color: #238636;   /* GitHub green button */
+  color: #fff;
+  border: none;
+}
+
+.dark-mode a {
+  color: #58a6ff;              /* readable link color */
+}
