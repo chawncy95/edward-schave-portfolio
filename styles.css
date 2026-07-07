@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f5f6f8;
+  color: #222;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0b1b3b, #1f4f7f);
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtagline {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  background: #ffb347;
+  color: #0b1b3b;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.top-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #dde0e6;
+  padding: 0.6rem 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.top-nav a:hover {
+  color: #1f4f7f;
+}
+
+.section {
+  max-width: 1000px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.commentary {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.75rem;
+}
+
+.btn-secondary {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid #1f4f7f;
+  color: #1f4f7f;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.btn-secondary:hover {
+  background: #1f4f7f;
+  color: #fff;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.9rem 1rem;
+  border-left: 4px solid #1f4f7f;
+  background: #f0f3f8;
+  font-size: 0.9rem;
+}
+
+.ai-note {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 1rem;
+  border-top: 1px dashed #dde0e6;
+  padding-top: 0.75rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  color: #777;
+}
