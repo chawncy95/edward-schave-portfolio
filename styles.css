@@ -169,3 +169,8 @@ blockquote {
 body {
   line-height: 1.6;
 }
+
+.section h2 i {
+  margin-right: 10px;
+  color: #333;
+}
