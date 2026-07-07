@@ -299,3 +299,71 @@ body.dark-mode {
   padding: 10px 15px;
   margin: 10px 0;
 }
+
+/* ============================
+   CLEAN DARK MODE (FULL FIX)
+   ============================ */
+
+body.dark-mode {
+  background-color: #0d1117;
+  color: #f0f6fc;
+}
+
+/* All cards */
+.dark-mode .card {
+  background-color: #161b22 !important;
+  color: #f0f6fc !important;
+  border: 1px solid #30363d !important;
+}
+
+/* Section headers */
+.dark-mode h2 {
+  color: #f0f6fc !important;
+}
+
+.dark-mode .section h2 i {
+  color: #58a6ff !important;
+}
+
+/* Buttons */
+.dark-mode .btn-secondary {
+  background-color: #238636 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* Links */
+.dark-mode a {
+  color: #58a6ff !important;
+}
+
+/* Paragraphs */
+.dark-mode p {
+  color: #f0f6fc !important;
+}
+
+/* ============================
+   PEER FEEDBACK FIX
+   ============================ */
+
+.dark-mode #peer-feedback .card {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333 !important;
+}
+
+.dark-mode #peer-feedback h3 {
+  color: #ffffff !important;
+}
+
+.dark-mode #peer-feedback p,
+.dark-mode #peer-feedback .commentary {
+  color: #e6e6e6 !important;
+}
+
+.dark-mode #peer-feedback blockquote {
+  background-color: #2a2a2a !important;
+  color: #ffffff !important;
+  border-left: 4px solid #58a6ff !important;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
