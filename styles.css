@@ -257,3 +257,26 @@ body.dark-mode #peer-feedback .commentary {
 body.dark-mode #peer-feedback blockquote {
   border-left-color: #1f4f7f !important; /* keep your accent color */
 }
+
+/* FIX PEER FEEDBACK SPACING + BLOCKQUOTE VISUALS */
+#peer-feedback .card p,
+#peer-feedback .card .commentary {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+#peer-feedback blockquote {
+  background: #f0f3f8 !important;   /* restore light quote box */
+  border-left: 4px solid #1f4f7f;
+  padding: 0.9rem 1rem;
+  margin: 1rem 0;
+}
+
+/* Keep text readable in dark mode */
+body.dark-mode #peer-feedback .card,
+body.dark-mode #peer-feedback p,
+body.dark-mode #peer-feedback h3,
+body.dark-mode #peer-feedback blockquote,
+body.dark-mode #peer-feedback .commentary {
+  color: #000 !important;
+}
