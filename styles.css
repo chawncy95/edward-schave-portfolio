@@ -198,104 +198,21 @@ body.dark-mode {
 }
 
 /* ============================
-   PEER FEEDBACK FIX
+   FINAL — CLEAN PEER FEEDBACK DARK MODE
    ============================ */
 
-.dark-mode #peer-feedback .card {
-  background-color: #1e1e1e !important;
-  border: 1px solid #333 !important;
-}
-
-.dark-mode #peer-feedback h3 {
-  color: #ffffff !important;
-}
-
-.dark-mode #peer-feedback p,
-.dark-mode #peer-feedback .commentary {
-  color: #e6e6e6 !important;
-}
-
-.dark-mode #peer-feedback blockquote {
-  background-color: #2a2a2a !important;
-  color: #ffffff !important;
-  border-left: 4px solid #58a6ff !important;
-  padding: 10px 15px;
-  margin: 10px 0;
-}
-
-/* FINAL FIX — Peer Feedback Dark Mode */
-.dark-mode #peer-feedback .card {
-  background-color: #161b22 !important;
-  color: #f0f6fc !important;
-  border: 1px solid #30363d !important;
-}
-
-/* Fix blockquote inside Peer Feedback */
-.dark-mode #peer-feedback blockquote {
-  background-color: #0d1117 !important;
-  color: #f0f6fc !important;
-  border-left: 4px solid #58a6ff !important;
-}
-
-/* Fix ALL text inside Peer Feedback */
-.dark-mode #peer-feedback p,
-.dark-mode #peer-feedback h3,
-.dark-mode #peer-feedback .commentary,
-.dark-mode #peer-feedback blockquote {
-  color: #f0f6fc !important;
-}
-
-/* SIMPLE FIX — Make Peer Feedback text black in dark mode */
-body.dark-mode #peer-feedback .card,
-body.dark-mode #peer-feedback p,
-body.dark-mode #peer-feedback h3,
-body.dark-mode #peer-feedback blockquote,
-body.dark-mode #peer-feedback .commentary {
-  color: #000 !important;     /* black text */
-}
-
-body.dark-mode #peer-feedback blockquote {
-  border-left-color: #1f4f7f !important; /* keep your accent color */
-}
-
-/* FIX PEER FEEDBACK SPACING + BLOCKQUOTE VISUALS */
-#peer-feedback .card p,
-#peer-feedback .card .commentary {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-#peer-feedback blockquote {
-  background: #f0f3f8 !important;   /* restore light quote box */
-  border-left: 4px solid #1f4f7f;
-  padding: 0.9rem 1rem;
-  margin: 1rem 0;
-}
-
-/* Keep text readable in dark mode */
-body.dark-mode #peer-feedback .card,
-body.dark-mode #peer-feedback p,
-body.dark-mode #peer-feedback h3,
-body.dark-mode #peer-feedback blockquote,
-body.dark-mode #peer-feedback .commentary {
-  color: #000 !important;
-}
-
-/* FINAL — Make Peer Feedback Cards Dark in Dark Mode */
 body.dark-mode #peer-feedback .card {
-  background-color: #161b22 !important;   /* same dark card as other sections */
+  background-color: #161b22 !important;   /* dark card */
+  border: 1px solid #30363d !important;
   color: #f0f6fc !important;              /* white text */
-  border: 1px solid #30363d !important;   /* subtle GitHub-style border */
 }
 
-/* Make all text inside Peer Feedback white */
 body.dark-mode #peer-feedback * {
-  color: #f0f6fc !important;
+  color: #f0f6fc !important;              /* all text white */
 }
 
-/* Dark blockquote styling */
 body.dark-mode #peer-feedback blockquote {
-  background-color: #0d1117 !important;   /* darker quote box */
+  background-color: #0d1117 !important;   /* dark quote box */
   border-left: 4px solid #58a6ff !important;
   padding: 10px 15px;
   margin: 1rem 0;
