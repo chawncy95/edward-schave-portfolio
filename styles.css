@@ -280,3 +280,23 @@ body.dark-mode #peer-feedback blockquote,
 body.dark-mode #peer-feedback .commentary {
   color: #000 !important;
 }
+
+/* FINAL — Make Peer Feedback Cards Dark in Dark Mode */
+body.dark-mode #peer-feedback .card {
+  background-color: #161b22 !important;   /* same dark card as other sections */
+  color: #f0f6fc !important;              /* white text */
+  border: 1px solid #30363d !important;   /* subtle GitHub-style border */
+}
+
+/* Make all text inside Peer Feedback white */
+body.dark-mode #peer-feedback * {
+  color: #f0f6fc !important;
+}
+
+/* Dark blockquote styling */
+body.dark-mode #peer-feedback blockquote {
+  background-color: #0d1117 !important;   /* darker quote box */
+  border-left: 4px solid #58a6ff !important;
+  padding: 10px 15px;
+  margin: 1rem 0;
+}
