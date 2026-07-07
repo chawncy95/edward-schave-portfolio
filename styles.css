@@ -239,3 +239,14 @@ body.dark-mode {
   background-color: #161b22 !important;  /* GitHub dark card */
   border: 1px solid #30363d;             /* subtle border */
 }
+
+/* Global fix: ALL cards become dark in dark mode */
+.dark-mode .card {
+  background-color: #161b22 !important;   /* GitHub dark card */
+  color: #f0f6fc !important;              /* bright readable text */
+  border: 1px solid #30363d !important;   /* subtle border */
+}
+
+/* Make all paragraph text readable in dark mode */
+.dark-mode p {
+  color: #f0f6fc !important;
