@@ -250,3 +250,28 @@ body.dark-mode {
 /* Make all paragraph text readable in dark mode */
 .dark-mode p {
   color: #f0f6fc !important;
+
+/* Full dark-mode fix for Peer Feedback section */
+.dark-mode #peer-feedback .card {
+  background-color: #161b22 !important;   /* dark GitHub-style card */
+  color: #f0f6fc !important;              /* bright readable text */
+  border: 1px solid #30363d !important;
+}
+
+/* Make ALL text inside the card readable */
+.dark-mode #peer-feedback .card * {
+  color: #f0f6fc !important;
+}
+
+/* Improve blockquote readability */
+.dark-mode #peer-feedback blockquote {
+  background-color: #0d1117 !important;
+  border-left: 4px solid #58a6ff !important;
+  padding: 10px 15px;
+  color: #f0f6fc !important;
+}
+
+/* Make h3 titles readable */
+.dark-mode #peer-feedback h3 {
+  color: #f0f6fc !important;
+}
