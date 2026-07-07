@@ -144,3 +144,28 @@ blockquote {
   font-size: 0.85rem;
   color: #777;
 }
+
+.section {
+  padding: 60px 20px;
+  margin-bottom: 60px;
+}
+
+.card {
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.section h2 {
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.btn-secondary {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+body {
+  line-height: 1.6;
+}
