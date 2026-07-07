@@ -275,3 +275,27 @@ body.dark-mode {
 .dark-mode #peer-feedback h3 {
   color: #f0f6fc !important;
 }
+
+/* --- Peer Feedback Dark Mode Fix --- */
+
+.dark-mode #peer-feedback .card {
+  background-color: #1e1e1e !important;   /* dark card */
+  border: 1px solid #333 !important;
+}
+
+.dark-mode #peer-feedback h3 {
+  color: #ffffff !important;              /* bright section titles */
+}
+
+.dark-mode #peer-feedback p,
+.dark-mode #peer-feedback .commentary {
+  color: #e6e6e6 !important;              /* readable paragraph text */
+}
+
+.dark-mode #peer-feedback blockquote {
+  background-color: #2a2a2a !important;   /* darker quote box */
+  color: #ffffff !important;              /* bright quote text */
+  border-left: 4px solid #58a6ff !important;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
